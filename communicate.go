@@ -11,7 +11,7 @@ type User struct {
 	name string
 	msg  chan string
 }
-
+//////
 //定义一个key-value变量(map结构),并make出来空间
 var allUsers = make(map[string]User)
 
