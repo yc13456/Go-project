@@ -4,8 +4,11 @@ node {
     }
     stage("test build"){
         echo "test build。。。"
+	echo "test build。。。"
+	echo "test build。。。"
     }
     stage("resultds"){
         echo "result"
+	echo "result"
     }
 }
