@@ -1,3 +1,2 @@
 FROM --platform=$TARGETPLATFORM alpine
-
-CMD cat "11211"
+RUN cat "11211"
