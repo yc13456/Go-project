@@ -1,0 +1,4 @@
+1、设置过期这个操作应该在什么地方添加（）
+2、使用脚本添加数据，单一。
+
+docker run -t -i dgageot/java8 /bin/sh -c "curl -O http://$JENKINS:8080/jnlpJars/slave.jar && java -jar slave.jar -jnlpUrl http://$JENKINS:8080/computer/myslave/slave-agent.jnlp"
