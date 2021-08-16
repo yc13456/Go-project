@@ -3,3 +3,4 @@
 zxvx
 docker run -t -i dgageot/java8 /bin/sh -c "curl -O http://$JENKINS:8080/jnlpJars/slave.jar && java -jar slave.jar -jnlpUrl http://$JENKINS:8080/computer/myslave/slave-agent.jnlp"
 的任天堂合法化
+etv
